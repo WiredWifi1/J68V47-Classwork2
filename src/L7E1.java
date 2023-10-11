@@ -14,6 +14,7 @@ public class L7E1 {
         System.out.print("Input an option (1-4): ");
         int option = scanner.nextInt();
         System.out.format("You chose option %d %n", option);
+        return option;
     }
 
     public static void option1(){
